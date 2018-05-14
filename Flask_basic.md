@@ -49,6 +49,15 @@ from flask import Blueprint
 
 blue = Blueprint('first', __name__)
 ```
+    修改
+       @app.route('/')
+       def hello_world():
+       return 'Hello World!'
+    为
+      @blue.route('/')
+      def hello_world():
+      return 'Hello World!'
+      
    b) 路由注册
 ```
 from flask import Flask
