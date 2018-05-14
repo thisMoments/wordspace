@@ -2,7 +2,7 @@
 
 ### 概念
     jango --> 完善完整高集成的框架
-    flask --> '微'框架，不包括汉数据库抽象层框架，database，templates需要自己去组装
+    flask --> '微'框架，不包含数据库抽象层框架，database，templates需要自己去组装
 
 #### 安装
     创建虚拟环境virtualenv --no-site-packages flaskenv
