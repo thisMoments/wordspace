@@ -42,8 +42,21 @@ if __name__ == '__main__':
     
 #### 蓝图 -- 管理url，规划url
     pip install flask-blueprint
-    a) 初始化
-    b) 路由注册
+    
+   a) 初始化
+```
+from flask import Blueprint
+
+blue = Blueprint('first', __name__)
+```
+   b) 路由注册
+```
+def create_app():
+    app = Flask(__name__)
+    app.register_blueprint(blueprint=blue)
+
+    return app
+```
 
 #### route规则
     django中
