@@ -51,6 +51,8 @@ blue = Blueprint('first', __name__)
 ```
    b) 路由注册
 ```
+from flask import Flask
+
 def create_app():
     app = Flask(__name__)
     app.register_blueprint(blueprint=blue)
