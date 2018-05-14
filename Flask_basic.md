@@ -69,4 +69,4 @@ def create_app():
     strint: 默认的字符串
     int: 整型
     float: 浮点数
-    path: '/'也是当错字符串返回
+    path: '/'也是当成字符串返回
