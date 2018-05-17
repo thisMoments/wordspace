@@ -13,8 +13,10 @@
 		    find / -name mysql.cnf
 	    b）注释mysql.cof文件的bind_address
 		    /etc/mysql/mysql.conf.d
-        c）GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root@123' WITH GRANT OPTION;
-            flush privileges; 
+        c）use mysql
+	
+	   GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '*****' WITH GRANT OPTION;
+           flush privileges; 
 
 3. 修改django的配置文件
 
