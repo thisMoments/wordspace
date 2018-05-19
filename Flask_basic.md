@@ -162,7 +162,9 @@ def hello(name=None):
 </ul>
 {% endblock %}
 ```
+
 ##HTTP方法##
+
 默认情况下，路由只会响应 GET 请求， 但是能够通过给 route() 装饰器提供 methods 参数来改变，eg：
 ```
 @app.route('/login', methods=['GET', 'POST'])
