@@ -81,7 +81,7 @@
 
 5. 配置自定义的nginx配置文件
 
-```
+```python
 server {
 	listen       80;
 	server_name 47.92.164.198 localhost;
