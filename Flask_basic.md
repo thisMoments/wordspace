@@ -244,3 +244,6 @@ admin = Blueprint('admin', __name__, template_folder='templates')
 - 蓝图前缀
 
         url_prefix=‘hello’
+
+阅读参考：[Flask官方教程中文翻译](http://www.pythondoc.com/flask/index.html)
+
