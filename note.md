@@ -33,7 +33,7 @@
 
 8，合并add和commit操作 
 
-    git commity -am ''
+    git commit -am ''
 
 9, 创建秘钥 
 
