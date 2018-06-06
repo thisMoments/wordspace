@@ -4,7 +4,7 @@
 
     输入git clone https://.... 从远端克隆仓库到本地
 
-2，查看分支 git cbranch
+2，查看分支 git branch
 
     查看分支状态 git status
 
