@@ -11,6 +11,7 @@
 3，创建分支 git checkout -b +分支名
    
     切换分支 git checkout +分支名
+    切换到主分支  git checkout master
 
 4，删除本地分支 git branch -D +分支名
    
