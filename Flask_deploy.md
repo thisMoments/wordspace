@@ -51,7 +51,7 @@ Flask的部署方式与Django类似
 ```python
 server {
     listen       80;
-    server_name 47.92.73.20 localhost;
+    server_name 47.96.130.236 localhost;
 
 	access_log /home/app/logs/access.log;
 	error_log /home/app/logs/error.log;
