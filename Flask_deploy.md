@@ -74,7 +74,7 @@ server {
 
 	socket=127.0.0.1:8890
 
-	pythonpath=/home/app/src/s_aj;  #项目所在目录
+	pythonpath=/home/app/src/ihome;  #项目所在目录
 
 	callable=app;  # 回调的flask实例
 
@@ -83,3 +83,5 @@ server {
 12,启动方式：
 
      uwsgi –ini uwsgi.ini
+     或则
+     uwsgi  /home/app/src/ihome/uwsgi.ini
