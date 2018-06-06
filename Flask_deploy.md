@@ -36,7 +36,7 @@ Flask的部署方式与Django类似
 
 	apt install python3-pip
 
-	访问公网IP地址  welcome 头 nginx！ 则表示成功
+	访问公网IP地址  welcome to nginx！ 则表示成功
 
 
 8,安装uWSGI以及uWSGI对于Python的支持：
