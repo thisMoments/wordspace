@@ -1,6 +1,6 @@
 Flask的部署方式与Django类似
 
-1,更行ubuntu源
+1,更新ubuntu源
 
     sudo apt-get update
 
