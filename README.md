@@ -84,7 +84,7 @@
 ```python
 server {
 	listen       80;
-	server_name 47.92.164.198 localhost;
+	server_name 47.92.231.111 localhost;
 
 	access_log /home/app/log/access.log;
 	error_log /home/app/log/error.log;
